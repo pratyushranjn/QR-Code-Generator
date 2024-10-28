@@ -23,3 +23,8 @@ btn.addEventListener("click", () => {
     generateQR();
 });
 
+// Refresh the page every 30 seconds 
+setInterval(() => {
+    location.reload();
+}, 30000);
+
